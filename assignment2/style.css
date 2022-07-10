@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:  lightgray;
+}
+
+.navigation_bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black; 
+    padding: 20px;   
+} 
+.navigation_bar a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.navigation_bar li:hover {
+    background-color: orange;
+}
+
+.navigation_bar ul li {
+    display: inline;
+    padding: 20px;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overflow {
+    margin-top: 20px;
+    border: 3px hotpink solid;
+    width: 25%;
+    height: 200px;
+    overflow: auto; 
+}
+
+.parentbox {
+    justify-content: space-evenly;
+}
+.sidebyside {
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-items: center;
+align-items: center;
+}
+
+
+.borderimg{
+    margin-top: 10px;
+    margin-left: 75px;
+}
+.borderimgclass img {
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.textFont {
+    margin: 0px;
+    padding-top: 0px;
+    width: 50%;
+    height: 200px;
+}
+.hotpink {
+    padding-top: 35px;
+    background-color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;  
+}
+.softpink {
+    padding-top: 35px;
+    background-color: lightpink;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pink {
+    padding-top: 35px;
+    background-color: pink;
+    font-family: corsiva;
+    font-size: 16px;
+}
+
+  .buttonclass {
+    display: flex;
+    align-items: flex-end;
+    
+  }
+  .buttonclass {
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  .buttonclass button {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    width:200px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .mainfooter  {
+    position: fixed;
+    padding: 30px 0px 0px 0px;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+  }
+
+  .mainfooter p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  }
